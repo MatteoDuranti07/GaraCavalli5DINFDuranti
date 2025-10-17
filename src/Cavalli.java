@@ -12,6 +12,7 @@ public class Cavalli extends Thread{
     public Cavalli(String name, int lentezza){
         super();
         this.name = name;
+        this.lentezza = lentezza;
     }
 
     @Override
